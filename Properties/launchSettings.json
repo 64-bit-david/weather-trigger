@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Reddit_News_Weather": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7095",
+      "launchBrowser": false
+    }
+  }
+}
