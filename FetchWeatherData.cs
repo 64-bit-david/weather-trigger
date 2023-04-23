@@ -22,6 +22,12 @@ namespace Reddit_News_Weather
             log.LogInformation("C# HTTP trigger function processed a request.");
 
             string weatherAPIKey = System.Environment.GetEnvironmentVariable("WEATHER_API_KEY");
+            if (string.IsNullOrEmpty(weatherAPIKey))
+            {
+                log.LogInformation("Weather API Key is missing.");
+                return new JsonResult(new { error = "Weather API Key is missing." });
+            }
+
             string locationQ = req.Query["location"];
             string location = string.IsNullOrEmpty(locationQ) ? "London" : locationQ;
 
@@ -29,6 +35,7 @@ namespace Reddit_News_Weather
 
             var weatherUrl = $"http://api.weatherapi.com/v1/current.json?key={weatherAPIKey}&q={location}&aqi=no";
             log.LogInformation($"Weather URL: {weatherUrl}");
+            log.LogInformation($"Weather API Key: {weatherAPIKey}");
 
 
             try
