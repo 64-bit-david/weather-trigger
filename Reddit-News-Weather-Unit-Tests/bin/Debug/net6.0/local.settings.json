@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "WEATHER_API_KEY":"d33f65b92a1345b3aa9183420231704"
+    },
+    "Host": {
+        "CORS": "http://localhost:5173",
+        "CORSCredentials": true
+      }
+}
