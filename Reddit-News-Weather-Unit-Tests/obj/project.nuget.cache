@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RwVBnOyt2YbxWctjfPJ46sdESCyRCeyqVWqf2nsdu1pEv6U+CpnH3hPlIPvBwt2ECNbJnIegupvXXL4E5iaZpQ==",
+  "dgSpecHash": "opNk4RkALViI5B7zwy6hl/cxochRX+xKfp2UwSAI7QhMthEHbU2xjmmnJTfMGG2kq/kksuFUYexDH8PfkhD2JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\david\\Desktop\\Coding\\projects\\reddit-news-support-api\\Reddit-News-Weather-Unit-Tests\\Reddit-News-Weather-Unit-Tests.csproj",
+  "projectFilePath": "C:\\Users\\david\\Desktop\\Coding\\projects\\reddit-news-support-api\\reddit-news-support\\Reddit-News-Weather-Unit-Tests\\Reddit-News-Weather-Unit-Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\david\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",

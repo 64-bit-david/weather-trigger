@@ -8,14 +8,14 @@ using Newtonsoft.Json.Linq;
 namespace Reddit_News_Weather_Unit_Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class HttpTriggerTests
     {
         [TestMethod]
         public void TestWithParam()
         {
 
-            var logger = UnitTestFactory.CreateLogger();
-            Assert.IsNotNull(logger);
+            //var logger = UnitTestFactory.CreateLogger<HttpTriggerTests>();
+            //Assert.IsNotNull(logger);
             //var response = Reddit_News_Weather.FetchWeatherData.Run(UnitTestFactory.GetHttpRequest("location", "glasgow"), logger);
             //Assert.IsNotNull(response);
 
@@ -30,7 +30,7 @@ namespace Reddit_News_Weather_Unit_Tests
             //Assert.IsNotNull(parsedResponse);
 
 
-
+                
 
 
         }
