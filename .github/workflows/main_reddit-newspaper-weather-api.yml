@@ -39,4 +39,4 @@ jobs:
           app-name: 'reddit-newspaper-weather-api'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E0474BBE467240268E4AF5FDA59FD342 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4AEC19272A2C41A7A2A0F5A773321BE0 }}
